@@ -29,7 +29,7 @@ public class Student {
     public String status() {
         double avg = average();
         if (avg >= 4.5) {
-            return "отличник";
+            return "отличники";
         }
         if (avg >= 3.5) {
             return "хорошист";
