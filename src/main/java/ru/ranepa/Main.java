@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Введите имя:");
         String name = scanner.nextLine();
         Student student = new Student(name);
-        System.out.println("Введите оценок. Для завершения введите 0:");
+        System.out.println("Введите оценок. Для завершения ввдите 0:");
         int grade = scanner.nextInt();
         while (grade != 0) {
             student.addGrade(grade);
